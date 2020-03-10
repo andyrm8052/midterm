@@ -9,7 +9,28 @@ html{
   width: 1208px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #bfc0ba;
+  background-color: rgb(238, 236, 236);
+}
+menu a{
+  font-weight: bold;
+  padding: 0px 10px;
+}
+#homeMenu{
+  position: relative;
+  z-index: 99;
+  padding-right: 53px;
+  padding-top: 35px;
+  float: right;
+}
+menu hr{
+  float: right;
+  width: 250%;
+  border: solid black;
+}
+#mainPage hr{
+  margin-left: 37.5%;
+  width: 35%;
+  border: solid black 1px;
 }
 footer{
   text-align: center;
@@ -19,6 +40,12 @@ h5{
 }
 h6{
   font-size: 100%;
+  padding-left: 460px;
+  margin-bottom: 0px;
+}
+#mainPage p{
+  padding-left: 150px;
+  margin-top: 0px;
 }
 menu{
   padding: 0;
@@ -34,18 +61,19 @@ menu{
 a:link{
   text-decoration: none;
 }
+
 #banners{
   display: block;
   list-style: none;
   white-space: nowrap;
   position: relative;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 #banners img{
   margin-left: -190px;
 }
 #banner1{
-  background-color: azure;
+  background-color: #cfd2d4;
   position: relative;
   margin-right: 280px;
   height: 480px;
@@ -69,7 +97,7 @@ a:link{
   opacity: 100%;
 }
 #banner2{
-  background-color: azure;
+  background-color: #cfd2d4;
   margin-right: 280px;
   height: 480px;
   width: 300px;
@@ -87,7 +115,7 @@ a:link{
   opacity: 100%;
 }
 #banner3{
-  background-color: azure;
+  background-color: #cfd2d4;
   height: 480px;
   width: 300px;
   opacity: 75%;
@@ -104,58 +132,20 @@ a:link{
 }
 
 #mainPage{
-  width: 692px;
+  width: 1024px;
   padding-left: 27px;
   padding-right: 27px;
-  float: left;
   padding-top: 50px;
 }
-#top li {
-  display: inline;
-}
-#content {
-  width: 692px;
-  padding-left: 27px;
-  padding-right: 27px;
-  float: left;
-}
-#mainMenu {
-  width: 692px;
-  padding-left: 27px;
-  padding-right: 27px;
-  float: left;
-  text-align: right;
-}
-#mainMenu a {
-  font-size: 160%;
 
-}
-#mainMenu li {
-  padding-right: 20px;
-
-}
-#sidebar a {
-  font-size: 140%;
-}
-
-#sidebar {
-  width: 420px;
-  padding-left: 21px;
-  padding-right: 21px;
-  float: left;
-}
 #mainArea {
   clear: both;
   padding-top: 50px;
 }
-#logo {
-  width: 420px;
-  height: 140px;
-  padding-left: 21px;
-  padding-right: 21px;
-  float: left;
-}
+
 #logoHome {
+  position: relative;
+  z-index: 10;
   width: 200px;
   height: 140px;
   padding-left: 21px;
@@ -168,11 +158,6 @@ a:link{
 #top {
   height: 160px;
   line-height: 160px;
-}
-#logo img {
-  height: 90px;
-  width: 160px;
-  padding-top: 40px;
 }
 footer {
   clear: left;

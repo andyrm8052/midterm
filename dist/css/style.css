@@ -32,6 +32,10 @@ menu hr{
   width: 35%;
   border: solid black 1px;
 }
+#mainPage #hr1{
+ margin-bottom: -30px;
+}
+
 footer{
   text-align: center;
 }
